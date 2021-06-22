@@ -1,0 +1,21 @@
+{
+  "name": "download-facebook-data",
+  "version": "1.0.0",
+  "description": "a node automation script to download all the images from a facebook profile.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext ts --exec \"tsc && node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "Arpit Vasani",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "puppeteer-core": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.4"
+  }
+}
